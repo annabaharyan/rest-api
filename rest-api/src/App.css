@@ -1,0 +1,74 @@
+.app {
+  display: flex;
+}
+form {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+form input {
+  padding: 10px;
+}
+form button {
+  border: none;
+  background-color: green;
+  color: white;
+  padding: 10px;
+  outline: none;
+  cursor: pointer;
+}
+.every-li {
+  list-style: none;
+  width: 45%;
+}
+.item-div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.item-div img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.list-item {
+  width: 40%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.modalForm > div {
+  display: flex;
+  flex-direction: column;
+}
+.editBtns {
+  display: flex;
+  justify-content: flex-end;
+  gap: 3px;
+  margin-top: 8px;
+}
+.editBtns button,
+.item-div button {
+  background-color: rgb(181, 191, 175);
+  outline: none;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(63, 147, 63);
+  color: white;
+}
+.editBtns button:first-child {
+  background-color: rgb(207, 69, 69);
+}
